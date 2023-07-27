@@ -27,5 +27,3 @@ $response = OpenAI::client($apiKey)
 
 echo $response; // "As an AI, I do not have the capability to feel emotions or love. However, I am here to assist you with any questions or tasks you may have."
 ```
-
-## Chat Completions
