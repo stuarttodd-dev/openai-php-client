@@ -19,7 +19,7 @@ $response = OpenAI::client($apiKey)
     ->setConfig([
         'model' => 'gpt-3.5-turbo', // if not set, defaults to 'gpt-3.5-turbo'
         'temperature' => 0.9, // if not set, defaults to 0.7
-        'message' => 'Tell me you love me'
+        'message' => 'Tell me you love me' // If not set, defaults to giving you a random Chuck Norris joke
     ])
     ->fetch(function($response) { // use of closure is optional
         return json_decode($response)->choices[0]->message->content;
