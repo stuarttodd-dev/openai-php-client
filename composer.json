@@ -1,6 +1,6 @@
 {
-    "name": "stuarttodd/random-number",
-    "description": "Generates a random number",
+    "name": "stuarttodd/openai-php-client",
+    "description": "An OpenAPI PHP Client. This is under construction, however there is some limited functionality available.",
     "require": {
         "phpunit/phpunit": "^10.2",
         "guzzlehttp/guzzle": "^7.7"
