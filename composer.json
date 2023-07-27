@@ -1,0 +1,19 @@
+{
+    "name": "stuarttodd/random-number",
+    "description": "Generates a random number",
+    "require": {
+        "phpunit/phpunit": "^10.2",
+        "guzzlehttp/guzzle": "^7.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Stuarttodd\\OpenAiPhpClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Stuart Todd",
+            "email": "stuarttodd444@gmail.com"
+        }
+    ]
+}
