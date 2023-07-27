@@ -1,4 +1,4 @@
-# openai-php-client
+# Open AI PHP Client
 An OpenAPI PHP Client. This is under construction, however there is some limited functionality available.
 
 ## Composer Installation
